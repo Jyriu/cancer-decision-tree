@@ -1,6 +1,6 @@
-# Projet de Classification du Cancer du Sein
+# Prédire le cancer du sein
 
-Ce projet a pour objectif de classifier les tumeurs du sein comme étant **bénignes** ou **malignes** en utilisant un **classifieur par arbre de décision**. Le dataset utilisé est le **Breast Cancer Wisconsin Dataset**, qui contient diverses caractéristiques dérivées d'images cellulaires afin de prédire la nature de la tumeur.
+Ce petit projet a pour objectif de classifier les tumeurs du sein comme étant **bénignes** ou **malignes** en utilisant un **classifieur par arbre de décision**. Le dataset utilisé est le **Breast Cancer Wisconsin Dataset**, qui contient diverses caractéristiques dérivées d'images cellulaires afin de prédire la nature de la tumeur.
 
 ## Dataset
 - Le dataset contient des mesures des noyaux cellulaires à partir d'images de masses mammaires.
@@ -13,10 +13,10 @@ Ce projet a pour objectif de classifier les tumeurs du sein comme étant **béni
 3. **Évaluation** : Le modèle a atteint une précision d'environ **94,7%** sur l'ensemble de test. Les métriques utilisées pour l'évaluation incluaient la **matrice de confusion** et le **rapport de classification**.
 4. **Visualisation** : L'arbre de décision entraîné a été visualisé afin de comprendre les chemins de décision et les critères utilisés pour classifier les tumeurs.
 
-## Comment exécuter le projet
+## Si besoin d'exécuter le projet
 1. Cloner le dépôt :
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/Jyriu/cancer-decision-tree
    ```
 2. Installer les bibliothèques requises :
    ```bash
@@ -29,14 +29,13 @@ Ce projet a pour objectif de classifier les tumeurs du sein comme étant **béni
 
 ## Dépendances
 - **Python** (version 3.x)
-- **Pandas** pour la manipulation des données
-- **Scikit-learn** pour la modélisation en apprentissage automatique
-- **Matplotlib** pour la visualisation
+- **Pandas**
+- **Scikit-learn**
+- **Matplotlib**
 
 ## Résultats
-- Le modèle d'arbre de décision a atteint de bonnes performances avec une précision de **94,7%**.
-- La visualisation de l'arbre de décision fournit une vue facile à comprendre de la manière dont le modèle prend ses décisions en fonction des caractéristiques.
+- Le modèle d'arbre de décision a atteint de bons résultats avec une précision de **94,7%**.
+- La visualisation de l'arbre de décision fournit une vue facile afin de comprendre la manière dont le modèle prend ses décisions en fonction des différentes features.
 
 ## Licence
-Ce projet est uniquement à des fins éducatives.
-
+Ce projet a uniquement pour but l'apprentissage.
