@@ -39,6 +39,6 @@ print("classification report:")
 print(class_report)
 
 # visualize the decision tree
-plt.figure(figsize=(20, 10))
+plt.figure(figsize=(20, 10), dpi=1000)
 plot_tree(model, filled=True, feature_names=X.columns, class_names=['Benign', 'Malignant'], rounded=True, fontsize=10)
 plt.show()
