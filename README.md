@@ -44,7 +44,7 @@ Le **Breast Cancer Wisconsin Dataset** est constitué de mesures des noyaux cell
 - **Pandas**
 - **Scikit-learn**
 - **Matplotlib**
-- 
+
 3. **Exécuter le script** :
    ```bash
    python breast_cancer_classification.py
