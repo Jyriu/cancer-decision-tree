@@ -39,20 +39,16 @@ Le **Breast Cancer Wisconsin Dataset** est constitué de mesures des noyaux cell
    ```bash
    git clone https://github.com/Jyriu/cancer-decision-tree.git
    ```
-2. **Installer les bibliothèques requises** :
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. **Exécuter le script** :
-   ```bash
-   python breast_cancer_classification.py
-   ```
-
-## Dépendances
+2. **Installer les dépendances** : 
 - **Python** (version 3 min)
 - **Pandas**
 - **Scikit-learn**
 - **Matplotlib**
+- 
+3. **Exécuter le script** :
+   ```bash
+   python breast_cancer_classification.py
+   ```
 
 ## Résultats
 - **Précision du modèle** : **94,7%**. Cela signifie que le modèle est assez fiable pour prédire correctement si une tumeur est bénigne ou maligne.
